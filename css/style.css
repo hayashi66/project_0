@@ -1,7 +1,8 @@
 .otherpages {
     list-style-type: none;
-    margin: 0;
-    padding: 2px;
+    margin: 0px;
+    padding: 4px;
+    margin-right: 5px;
 }
 
 li {
@@ -9,6 +10,10 @@ li {
     padding: 5px;
     font-family:'Arial', Courier, monospace;
     font-size:15px;
+    background-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+    margin: 4px;
 }
 
 .maincontainer {
@@ -16,16 +21,18 @@ li {
 }
 
 .logo {
-    margin-top:16%
+    margin-top:16%;
+    margin-bottom: 10px;
 }
 
 .input {
-    width:500px;
-    height:30px;
+    width:550px;
+    height:35px;
     margin: 4px;
     padding: 6px;
     border: 1px solid grey;
     border-radius: 25px;
+    margin-bottom: 15px;
 }
 
 .s-button {
@@ -65,3 +72,10 @@ li {
      border: 3px solid lightgrey
 }
 
+.imgtext {
+    color:#4285f4;
+    position:relative;
+    left:110px;
+    bottom: 10px;
+    font-size: 16px;
+}

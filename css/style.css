@@ -5,15 +5,15 @@
     margin-right: 5px;
 }
 
-li {
+.returnbtn, .imgbtn, .advbtn {
     float:right;
     padding: 5px;
     font-family:'Arial', Courier, monospace;
     font-size:15px;
-    background-color: lightskyblue;
-    border: 1px solid lightskyblue;
     border-radius: 4px;
     margin: 4px;
+    text-decoration: none;
+    color: #3c4043;
 }
 
 .maincontainer {
@@ -78,4 +78,57 @@ li {
     left:110px;
     bottom: 10px;
     font-size: 16px;
+}
+
+.advsearchbtn {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.advtext {
+    margin: 25px 35px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d93025;
+}
+
+.advrow {
+    text-align:left;
+    margin-left: 2.5%
+}
+
+.advinput {
+    margin-left:9%;
+    position:relative;
+    left:12px;
+    bottom:20px;
+    width: 400px;
+    height: 25px;
+    border: solid 1px lightgray
+}
+
+.inputext {
+    font-size: 13px
+}
+
+.advheader {
+    float:left
+ }
+
+.advheaderc {
+    padding-bottom: 4%;
+    margin-left: 2.5%;
+    margin-top:40px;
+}
+
+.advancedbutton {
+    border: 7px solid #3079ed;
+    color: #fff;
+    background: #3079ed;
+    position:absolute;
+    left:26.5%
 }
